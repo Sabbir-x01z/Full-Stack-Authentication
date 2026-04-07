@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables (সবচেয়ে important!)
+.env
+.env.local
+.env.development
+.env.production
+
+# Build files
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
