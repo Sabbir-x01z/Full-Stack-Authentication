@@ -1,0 +1,15 @@
+services: 
+  app:
+    build: .
+    container_name: authentication-server
+    ports: 
+      - '7000:7000'
+    env_file:
+      - .env
+    restart: always
+    networks: 
+      - authentication-network
+
+networks:
+  authentication-network:
+    driver: bridge
