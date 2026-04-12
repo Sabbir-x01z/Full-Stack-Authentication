@@ -34,7 +34,7 @@ app.use(cors({
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Hi! from server!');
+    res.send('Hi! khanki magi!');
 });
 
 app.use('/api/auth', authRouter);
